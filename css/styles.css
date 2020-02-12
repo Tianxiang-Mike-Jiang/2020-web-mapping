@@ -54,6 +54,7 @@ h2 {
 	width: 90px;
 	float: right;
 	background-color: #FAEBD7;
+  margin-left: auto;
 }
 #show {
 	position: relative;
