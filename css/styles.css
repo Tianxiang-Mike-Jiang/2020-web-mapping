@@ -42,7 +42,7 @@ h2 {
 	position: relative;
 	bottom: -100px;
 	width: 90px;
-	float: right;  
+	float: right;
 	background-color: #FAEBD7;
 }
 #show {
@@ -52,6 +52,7 @@ h2 {
 	;
 	float: right;
 	background-color: #FAEBD7;
+  margin-left: 10px;
 }
 #reload {
 	position: relative;
