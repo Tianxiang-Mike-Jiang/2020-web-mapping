@@ -47,8 +47,9 @@ h2 {
 	cursor: pointer;
 }
 
-#button{
+.submit{
   height:50px;
+  width:140px;
 
 }
 #change_color {
