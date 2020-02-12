@@ -68,7 +68,8 @@ width: 150px;
 	position: relative;
 	bottom: -170px;
 	width: 90px;
-	float: right;
+	float: left;
+	margin-right: 10px
 }
 .picture {
 	position: absolute;
