@@ -40,7 +40,7 @@ h2 {
 }
 #change_color {
 	position: relative;
-	bottom: 10px;
+	bottom: -100px;
 	width: 90px;
 	float: left;
 	background-color: #FAEBD7;
