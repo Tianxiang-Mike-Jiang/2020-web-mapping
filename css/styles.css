@@ -47,7 +47,7 @@ h2 {
 }
 #show {
 	position: relative;
-	bottom: 0px;
+	bottom: -100px;
 	width: 90px;
 	;
 	float: right;
@@ -55,7 +55,7 @@ h2 {
 }
 #reload {
 	position: relative;
-	bottom: 0px;
+	bottom: -150px;
 	width: 90px;
 	float: right;
 }
