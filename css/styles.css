@@ -42,7 +42,7 @@ h2 {
 	position: relative;
 	bottom: -100px;
 	width: 90px;
-	float: left;
+	float: right;  
 	background-color: #FAEBD7;
 }
 #show {
