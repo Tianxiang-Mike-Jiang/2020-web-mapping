@@ -1,63 +1,51 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css">
-
+	<meta charset="utf-8">
+	<title>The HTML5 Herald</title>
+	<meta content="The HTML5 Herald" name="description">
+	<meta content="SitePoint" name="author">
+	<link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
-  <div>
+	<div>
 		<h2>Find the product of following questions</h2>
 	</div>
 	<div class="parent">
 		<div class="question">
 			<p class="survey">12345*54321=?</p>
-		</div>
-    <input type=text id="space" name="fill1" size=30 class=input required>
+		</div><input class="input" id="space" name="fill1" required="" size="30" type="text">
 		<div class="rightanswer">
 			<p class="survey">670,592,745</p>
 		</div>
-
-    <form id="quiz">
-		<div class="question">
-			<p class="survey">666*555=?</p>
-		</div>
-    <input type=text id="space" name="fill2" size=30 class=input required>
-		<div class="rightanswer">
-			<p class="survey">369,630</p>
-		</div>
-		<div class="question">
-			<p class="survey">2020*2019=?</p>
-		</div>
-    <input type=text id="space" name="fill3" size=30 class=input required>
-		<div class="rightanswer">
-			<p class="survey">4,078,380</p>
-		</div>
-		<div id="answer">
-			<button id="show">Show all the answers</button>
-		</div>
-		<div class="Color" data-background="https://www.taomerle.com/wp-content/uploads/2017/12/web-page-background-color-with-html-in.jpg">
-			<button id="change_color">Switch Theme</button>
-		</div>
-		<div class="picture"></div>
-		<div>
-			<button id="reload">Reload Page</button>
-		</div>
+		<form id="quiz" name="quiz">
+			<div class="question">
+				<p class="survey">666*555=?</p>
+			</div><input class="input" id="space" name="fill2" required="" size="30" type="text">
+			<div class="rightanswer">
+				<p class="survey">369,630</p>
+			</div>
+			<div class="question">
+				<p class="survey">2020*2019=?</p>
+			</div><input class="input" id="space" name="fill3" required="" size="30" type="text">
+			<div class="rightanswer">
+				<p class="survey">4,078,380</p>
+			</div>
+			<div id="answer">
+				<button id="show">Show all the answers</button>
+			</div>
+			<div class="Color" data-background="https://www.taomerle.com/wp-content/uploads/2017/12/web-page-background-color-with-html-in.jpg">
+				<button id="change_color">Switch Theme</button>
+			</div>
+			<div class="picture"></div>
+			<div>
+				<button id="reload">Reload Page</button>
+			</div>
+		</form>
 	</div>
-
-</form>
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-
-  <script src="js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js">
+	</script>
+	<script src="js/scripts.js">
+	</script>
 </body>
 </html>

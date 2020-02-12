@@ -20,16 +20,16 @@ h2 {
 	padding: 8px;
 	border-radius: 6px;
 	margin-bottom: 10px;
-  margin-right: 20px;
+	margin-right: 20px;
 	box-shadow: 10px 5px 5px #eee;
 	background: white;
 }
-.input{
-  height:52px;
-  text-align: center;
-  font-size: 15px;
-  margin-bottom: 40px;
-width: 150px;
+.input {
+	height: 52px;
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 40px;
+	width: 150px;
 }
 .rightanswer {
 	width: 156px;
@@ -46,15 +46,13 @@ width: 150px;
 	background-color: #ddd;
 	cursor: pointer;
 }
-
-
 #change_color {
 	position: relative;
 	bottom: -100px;
 	width: 90px;
 	float: right;
 	background-color: #FAEBD7;
-  margin-left: auto;
+	margin-left: auto;
 }
 #show {
 	position: relative;
@@ -62,7 +60,7 @@ width: 150px;
 	width: 90px;
 	float: right;
 	background-color: #FAEBD7;
-  margin-left: 10px;
+	margin-left: 10px;
 }
 #reload {
 	position: relative;
