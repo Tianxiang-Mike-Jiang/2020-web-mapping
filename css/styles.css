@@ -24,7 +24,13 @@ h2 {
 	box-shadow: 10px 5px 5px #eee;
 	background: white;
 }
+.input{
+  height:52px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 40px;
 
+}
 .rightanswer {
 	width: 156px;
 	display: inline-block;
@@ -39,6 +45,11 @@ h2 {
 .question:hover {
 	background-color: #ddd;
 	cursor: pointer;
+}
+
+#button{
+  height:50px;
+
 }
 #change_color {
 	position: relative;
@@ -57,7 +68,7 @@ h2 {
 }
 #reload {
 	position: relative;
-	bottom: -190px;
+	bottom: -100px;
 	width: 90px;
 	float: right;
 }
